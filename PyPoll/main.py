@@ -32,7 +32,7 @@ with open(file_to_load) as financial_data:
   
   header = next(reader)
   
-#jisan note:  as you will see from other file, the other teacher used a different method for this.  This method: 
+#jisan note:  as you will see from other file, the other teacher used a different method for skipping the header.  This method: 
 #        if index == 0:
 #           continue # continue - Keyword that means "skip to next iteration"
 
